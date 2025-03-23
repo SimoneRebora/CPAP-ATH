@@ -9,3 +9,7 @@ Per lavorare con gli script in [PositCloud](https://posit.cloud/), è necessario
 3. copia/incollare il link di questo repository (https://github.com/SimoneRebora/CPAP-ATH.git).
 
 Dall'interfaccia grafica di PositCloud, aprire i file con estensione ".R" e seguire le istruzioni riportate nei file stessi.
+
+## Corpus
+
+I testi nella cartella "corpus" sono derivati da: https://github.com/computationalstylistics/100_english_novels
