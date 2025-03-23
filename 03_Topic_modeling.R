@@ -178,9 +178,6 @@ p1 <- ggplot(
   theme_minimal() +
   facet_wrap(~topic)
 
-# show it
-p1
-
 # save it
 ggsave(p1, filename = "Topics_wordcloud.png", scale = 4)
 
@@ -190,6 +187,11 @@ ggsave(p1, filename = "Topics_wordcloud.png", scale = 4)
 # You can use the "corpus.zip" file in the shared Google folder
 # extracted from the ELTeC Italian literature corpus 
 # (https://github.com/COST-ELTeC/ELTeC-ita/tree/master)
+
+# You can also change the variables at the beginning
+# e.g. different number of topics, split length etc.
+
+# Note that you will HAVE to change the stopwords file (to the Italian one)
 
 # Suggested procedure:
 # rename the "corpus" folder in PositCloud (so you are not overwriting it),
