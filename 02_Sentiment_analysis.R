@@ -66,7 +66,7 @@ simple_plot(syuzhet_emotions$anticipation, title = "Anticipation arc")
 
 # we can save the plot as a png file
 png("Anticipation_arc.png", height = 900, width = 1600, res = 100)
-simple_plot(syuzhet_vector, title = "Sentiment arc")
+simple_plot(syuzhet_emotions$anticipation, title = "Anticipation arc")
 dev.off()
 
 # to have an overview, we can calculate the mean for each emotion (i.e. the first columns of the matrix)
